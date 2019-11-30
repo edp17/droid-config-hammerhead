@@ -28,4 +28,4 @@
 /etc/pulse/x-maemo-match.table
 /etc/pulse/arm_droid_default.pa
 /etc/sysconfig/pulseaudio
-/etc/pulse/arm_msm8974_hammerhead.pa
+/etc/pulse/arm_qualcomm_msm_8974_hammerhead_flattened_device_tree_000b.pa
