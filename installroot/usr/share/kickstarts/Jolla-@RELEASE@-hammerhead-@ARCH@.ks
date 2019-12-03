@@ -6,10 +6,10 @@
 # SuggestedImageType: fs
 # SuggestedArchitecture: armv7hl
 
-lang en_US.UTF-8
-keyboard us
 user --name nemo --groups audio,input,video --password nemo
 timezone --utc UTC
+keyboard us
+lang en_US.UTF-8
 
 ### Commands from /tmp/sandbox/usr/share/ssu/kickstart/part/default
 part / --size 500 --ondisk sda --fstype=ext4

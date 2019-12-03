@@ -6,6 +6,7 @@ Name: jolla-hw-adaptation-hammerhead
 Requires:
 - droid-hal-hammerhead
 - droid-hal-hammerhead-img-boot
+- droid-hal-hammerhead-kernel
 - droid-hal-hammerhead-kernel-modules
 - droid-config-hammerhead-sailfish
 - droid-config-hammerhead-pulseaudio-settings

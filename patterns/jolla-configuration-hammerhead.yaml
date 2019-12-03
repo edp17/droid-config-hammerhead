@@ -40,5 +40,9 @@ Requires:
 # Enable torch in eventsview shortcuts
 - jolla-settings-system-flashlight
 
+# Connman-tools for Bluetooth and timed-qt5 for Date&Time change
+- connman-tools
+- timed-qt5
+
 Summary: Jolla Configuration hammerhead
 
