@@ -22,7 +22,9 @@
 # Community HW adaptations need this
 %define community_adaptation 1
 
+# Device-specific ofono configuration
 Provides: ofono-configs
+Obsoletes: ofono-configs-mer
 %include droid-configs-device/droid-configs.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
