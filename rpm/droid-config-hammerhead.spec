@@ -26,6 +26,8 @@
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
 %include droid-configs-device/droid-configs.inc
+%include patterns/patterns-sailfish-device-adaptation-hammerhead.inc
+%include patterns/patterns-sailfish-device-configuration-hammerhead.inc
 
 # IMPORTANT if you want to comment out any macros in your .spec, delete the %
 # sign, otherwise they will remain defined! E.g.:

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-MNT=$(grep "Where=" /lib/systemd/system/android.mount | cut -d'=' -f 2)/media/0
+MNT=$(grep "Where=" /usr/lib/systemd/system/android.mount | cut -d'=' -f 2)/media/0
 
 #fix a stupid mistake in previous versions
 if [ "$(readlink -- /home/nemo/Pictures/Android)" = "/android/Pictures" ]; then
