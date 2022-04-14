@@ -1,0 +1,6 @@
+.git
+.mb2
+.gitmodules
+documentation.list
+installroot/*
+tmp/*
