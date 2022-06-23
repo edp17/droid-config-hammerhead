@@ -28,8 +28,8 @@ Requires: qt5-feedback-haptics-native-vibrator
 Requires: qt5-plugin-generic-evdev
 
 Requires: pulseaudio-modules-droid
-Requires: pulseaudio-modules-droid-glue
-#Requires: pulseaudio-modules-droid-hidl
+#Requires: pulseaudio-modules-droid-glue
+Requires: pulseaudio-modules-droid-hidl
 #edp17- for bluez4
 Requires: pulseaudio-modules-bluez4
 
