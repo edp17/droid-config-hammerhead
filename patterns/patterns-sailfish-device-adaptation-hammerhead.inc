@@ -28,7 +28,7 @@ Requires: qt5-feedback-haptics-native-vibrator
 Requires: qt5-plugin-generic-evdev
 
 Requires: pulseaudio-modules-droid
-Requires: pulseaudio-modules-droid-glue
+##Requires: pulseaudio-modules-droid-glue
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
