@@ -9,7 +9,7 @@ Requires: droid-config-hammerhead-pulseaudio-settings
 Requires: droid-config-hammerhead-policy-settings
 Requires: droid-config-hammerhead-preinit-plugin
 Requires: droid-config-hammerhead-flashing
-Requires: droid-config-hammerhead-bluez4
+Requires: droid-config-hammerhead-bluez5
 Requires: droid-hal-version-hammerhead
 
 # Hybris packages
@@ -30,7 +30,7 @@ Requires: qt5-plugin-generic-evdev
 Requires: pulseaudio-modules-droid
 ##Requires: pulseaudio-modules-droid-glue
 #edp17- for bluez4
-Requires: pulseaudio-modules-bluez4
+##Requires: pulseaudio-modules-bluez4
 
 # for audio recording to work:
 Requires: qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
