@@ -56,6 +56,7 @@ Requires: jolla-settings-system-flashlight
 # Connman-tools for Bluetooth and timed-qt5 for Date&Time change
 Requires: connman-tools
 Requires: timed-qt5
+Requires: bluez5-tools-hciattach
 
 # install some packages
 Requires: mce-tools
