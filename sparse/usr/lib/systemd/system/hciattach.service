@@ -6,4 +6,4 @@ ConditionPathExists=/system/vendor/firmware
 [Service]
 Type=forking
 ExecStartPre=/usr/sbin/rfkill unblock bluetooth
-ExecStart=/usr/sbin/hciattach ttyHS99 bcm43xx 4000000 flow sleep /data/property/persist.service.bdroid.bdaddr
+ExecStart=/usr/bin/hciattach ttyHS99 bcm43xx 4000000 flow sleep /data/property/persist.service.bdroid.bdaddr
