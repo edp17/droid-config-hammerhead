@@ -23,7 +23,6 @@ Requires: libhybris-tests
 Requires: busybox-static
 Requires: openssh-server
 Requires: zypper
-Requires: gnu-bash
 Requires: psmisc-tools
 
 
