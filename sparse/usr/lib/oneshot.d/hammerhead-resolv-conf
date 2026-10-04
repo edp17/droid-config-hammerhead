@@ -1,0 +1,10 @@
+#!/bin/sh
+
+TARGET='../run/systemd/resolve/resolv.conf'
+
+if [ "$(readlink /etc/resolv.conf 2>/dev/null)" = "$TARGET" ]; then
+    exit 0
+fi
+
+rm -f /etc/resolv.conf || exit 1
+ln -s "$TARGET" /etc/resolv.conf

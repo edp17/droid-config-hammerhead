@@ -55,6 +55,11 @@ Provides: bluez5-configs
 Obsoletes: bluez-configs-sailfish > 0.0.1
 Obsoletes: bluez-configs-mer > 0.0.1
 
+# /etc/resolv.conf is read-only in OBS build roots, so fix the resolver
+# symlink on the actual device instead of packaging /etc/resolv.conf.
+Requires: oneshot
+%define additional_post_scripts %{_bindir}/add-oneshot hammerhead-resolv-conf || :
+
 #Requires: pulseaudio-modules-bluez4
 
 %include droid-configs-device/droid-configs.inc
